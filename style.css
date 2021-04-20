@@ -1,33 +1,33 @@
-
-.first{
-    z-index: -2;
-    background-repeat: no-repeat;
-    width: 99vw;
-    height: 100vh;
-    position: absolute;
+.first {
+  z-index: -2;
+  background-repeat: no-repeat;
+  width: 99vw;
+  height: 100vh;
+  position: absolute;
 }
-.header{
-position:relative;
+
+.header {
+  position: relative;
 }
 
 .vanguard_logo_white {
-    width: 103.3px;
-    height: 41.7px;
-    margin: 0 485px 36.7px 34.2px;
-  }
+  width: 103.3px;
+  height: 41.7px;
+  margin: 0 485px 36.7px 34.2px;
+}
 
-  .util-1{
-    background-color: hsla(0, 0%, 81%, 0.3);
-    padding: 20px;
-  }
-  .graph{
-      width:40vw;
-      height:35vh;
-  }
-  .graph-container{
-      padding: 100px;
-  }
- 
+.util-1 {
+  background-color: hsla(0, 0%, 81%, 0.3);
+  padding: 20px;
+}
+.graph {
+  width: 40vw;
+  height: 35vh;
+}
+.graph-container {
+  padding: 100px;
+}
+
 .tilt-rectangle {
   height: 5px;
   width: 10px;
@@ -73,4 +73,7 @@ position:relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+body{
+  font-family: 'Open Sans';
 }
