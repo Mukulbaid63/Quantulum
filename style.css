@@ -27,9 +27,7 @@ position:relative;
   .graph-container{
       padding: 100px;
   }
-  body{
-    background-color: #b48d8d;
-}
+ 
 .tilt-rectangle {
   height: 5px;
   width: 10px;
