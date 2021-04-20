@@ -1,79 +1,93 @@
 .first {
-  z-index: -2;
-  background-repeat: no-repeat;
-  width: 99vw;
-  height: 100vh;
-  position: absolute;
+    z-index: -2;
+    background-repeat: no-repeat;
+    width: 99vw;
+    height: 100vh;
+    position: absolute;
 }
 
 .header {
-  position: relative;
+    position: relative;
 }
 
 .vanguard_logo_white {
-  width: 103.3px;
-  height: 41.7px;
-  margin: 0 485px 36.7px 34.2px;
+    width: 103.3px;
+    height: 41.7px;
+    margin: 0 485px 36.7px 34.2px;
 }
 
 .util-1 {
-  background-color: hsla(0, 0%, 81%, 0.3);
-  padding: 20px;
+    background-color: hsla(0, 0%, 81%, 0.3);
+    padding: 20px;
 }
+
 .graph {
-  width: 45vw;
-  height: 60vh;
+    width: 40vw;
+    height: 55vh;
 }
+
 .graph-container {
-  padding: 100px;
+    padding: 100px;
 }
 
 .tilt-rectangle {
-  height: 5px;
-  width: 10px;
-  background-color: #000;
+    height: 5px;
+    width: 10px;
+    background-color: #000;
 }
+
 .image-container {
-  position: relative;
-  text-align: center;
-  color: white;
+    position: relative;
+    text-align: center;
+    color: white;
 }
+
 
 /* Bottom left text */
+
 .bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
 }
+
 
 /* Top left text */
+
 .top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
 }
+
 
 /* Top right text */
+
 .top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
 }
+
 
 /* Bottom right text */
+
 .bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
 }
 
+
 /* Centered text */
+
 .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-body{
-  font-family: 'Open Sans';
+
+body {
+    font-family: 'Open Sans';
 }
